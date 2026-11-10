@@ -67,13 +67,13 @@ const handleLogin = async () => {
 
 <style scoped>
 .login-container {
-  max-width: 400px;
+  max-width: 650px;
   margin: 80px auto;
   padding: 30px;
-  border: 1px solid #e2e8f0;
-  border-radius: 12px;
+  border: 2px solid #db0b0be7;
+  border-radius: 30px;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-  background: white;
+  background: rgba(10, 13, 214, 0.37);
   font-family: system-ui, -apple-system, sans-serif;
 }
 
@@ -91,7 +91,7 @@ label {
   display: block;
   margin-bottom: 6px;
   font-weight: 600;
-  color: #475569;
+  color: #1a221d;
   font-size: 14px;
 }
 
@@ -99,7 +99,7 @@ input {
   width: 100%;
   padding: 10px 12px;
   box-sizing: border-box;
-  border: 1px solid #cbd5e1;
+  border: 1px solid #7d1a96;
   border-radius: 6px;
   font-size: 16px;
   transition: border-color 0.2s;
@@ -107,15 +107,15 @@ input {
 
 input:focus {
   outline: none;
-  border-color: #00dc82;
-  box-shadow: 0 0 0 3px rgba(0, 220, 130, 0.1);
+  border-color: #4d00dc;
+  box-shadow: 0 0 0 3px rgb(0, 220, 128);
 }
 
 button {
   width: 100%;
   padding: 12px;
-  background-color: #00dc82;
-  color: white;
+  background-color: #128b8b;
+  color: rgb(22, 32, 185);
   border: none;
   border-radius: 6px;
   cursor: pointer;
@@ -125,7 +125,7 @@ button {
 }
 
 button:hover:not(:disabled) {
-  background-color: #00c472;
+  background-color: #c49600;
 }
 
 button:disabled {

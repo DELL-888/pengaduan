@@ -310,7 +310,7 @@ const deleteCategory = async () => {
 }
 
 .btn-primary {
-  background: #6366f1;
+  background: #07e0ce;
   color: #fff;
   border: none;
   padding: 10px 18px;
@@ -321,7 +321,7 @@ const deleteCategory = async () => {
 }
 
 .btn-primary:hover:not(:disabled) {
-  background: #4f46e5;
+  background: #07e0ce;
 }
 
 .btn-primary:disabled {

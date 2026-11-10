@@ -11,8 +11,8 @@
     <aside class="sidebar" :class="{ open: isSidebarOpen }">
       <div class="sidebar-header">
         <div class="logo">
-          <span class="logo-icon">⚡</span>
-          <span class="logo-text">PANEL</span>
+          <span class="logo-icon">📋</span>
+          <span class="logo-text">ADMIN PANEL</span>
         </div>
         <button class="close-btn" @click="isSidebarOpen = false">✕</button>
       </div>
@@ -79,8 +79,8 @@ const menuItems = [
   { path: '/admin', icon: '📊', label: 'Dashboard' },
   { path: '/admin/reports', icon: '📝', label: 'Laporan' },
   { path: '/admin/users', icon: '👥', label: 'Data Pengguna' },
-  { path: '/admin/categories', icon: '📦', label: 'Kategori' },
-  { path: '/admin/locations', icon: '🛒', label: 'Lokasi' },
+  { path: '/admin/categories', icon: '📂', label: 'Kategori' },
+  { path: '/admin/locations', icon: '📍', label: 'Lokasi' },
 ]
 
 // Cek apakah menu aktif (termasuk path parent)
@@ -130,8 +130,8 @@ onMounted(async () => {
 /* ===== SIDEBAR ===== */
 .sidebar {
   width: 260px;
-  background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
-  color: #cbd5e1;
+  background: linear-gradient(180deg, #12cfc0 0%, #08e29a 100%);
+  color: #274abea8;
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -243,7 +243,7 @@ onMounted(async () => {
 .logout-sidebar {
   width: 100%;
   margin-top: 14px;
-  background: rgba(248, 113, 113, 0.12);
+  background: rgba(6, 25, 136, 0.349);
   color: #fecaca;
   border: 1px solid rgba(248, 113, 113, 0.24);
   padding: 10px 12px;
@@ -253,8 +253,8 @@ onMounted(async () => {
 }
 
 .logout-sidebar:hover {
-  background: rgba(248, 113, 113, 0.2);
-  color: #fff;
+  background: rgba(218, 14, 116, 0.774);
+  color: #ffffff;
 }
 
 /* ===== MAIN WRAPPER ===== */
@@ -316,8 +316,8 @@ onMounted(async () => {
 }
 
 .logout-btn {
-  background: #fee2e2;
-  color: #991b1b;
+  background: #f1fee2c4;
+  color: #9ff11b;
   border: none;
   min-width: 78px;
   height: 40px;
@@ -329,7 +329,7 @@ onMounted(async () => {
 }
 
 .logout-btn:hover {
-  background: #fecaca;
+  background: #9ffb;
 }
 
 .content {
